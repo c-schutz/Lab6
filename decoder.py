@@ -1,5 +1,12 @@
 def decoder(password):
+    d_pass = ""
     for i in password:
-        i -= 3
+        dec = int(i)
+        dec -= 3
+        d_pass += str(dec)
+    return d_pass
+
+
+
 
 
