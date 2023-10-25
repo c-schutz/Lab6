@@ -1,7 +1,10 @@
 import encoder
+import decoder
 
 p_word = input("Enter password: ")
 
-encoder.encode(p_word)
+encoded_p = encoder.encode(p_word)
 
-#add decode here
+decoded_p = decoder.decoder(encoded_p)
+
+print(decoded_p)
